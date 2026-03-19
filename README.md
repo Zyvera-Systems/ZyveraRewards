@@ -1,4 +1,4 @@
-# ZyveraRewards# Zyvera-Rewards
+# ZyveraRewards
 
 A lightweight daily reward system plugin for Paper servers (1.16+).
 

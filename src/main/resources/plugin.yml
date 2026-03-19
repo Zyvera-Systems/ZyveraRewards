@@ -1,0 +1,35 @@
+name: Zyvera-Rewards
+version: ${project.version}
+main: dev.zyverasystems.rewards.ZyveraRewards
+api-version: '1.16'
+description: A lightweight daily reward system with MiniMessage gradients and custom head support.
+authors:
+  - Zyvera-Systems
+  - Thomas U.
+website: https://zyvera-systems.dev
+
+commands:
+  rewards:
+    description: Open the rewards GUI or manage the plugin.
+    usage: /rewards [reload]
+    aliases:
+      - reward
+      - dailyrewards
+      - dr
+
+permissions:
+  zyverarewards.use:
+    description: Allows opening the rewards GUI.
+    default: true
+  zyverarewards.admin:
+    description: Allows reloading the plugin configuration.
+    default: op
+  zyverarewards.claim.daily:
+    description: Permission to claim the daily reward.
+    default: true
+  zyverarewards.claim.weekly:
+    description: Permission to claim the weekly reward.
+    default: true
+  zyverarewards.claim.premium:
+    description: Permission to claim the premium reward.
+    default: op
